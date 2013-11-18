@@ -7,7 +7,7 @@
 from __future__ import unicode_literals
 from .alpha3b import Alpha3BConverter
 from .alpha2 import Alpha2Converter
-from ..exceptions import LanguageReverseError
+from .exceptions import LanguageReverseError
 
 
 class OpenSubtitlesConverter(Alpha3BConverter):
